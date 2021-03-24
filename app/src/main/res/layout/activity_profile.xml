@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/kaesang"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Nama"
+            android:textColor="@color/white"
+            android:id="@+id/qname"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12pt"
+            android:textColor="@color/white"
+            android:text="Kaesang"
+            android:id="@+id/name"/>
+    </LinearLayout> <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Email"
+            android:textColor="@color/white"
+            android:id="@+id/email"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12pt"
+            android:textColor="@color/white"
+            android:text="Kaesang@gmail.com"
+            android:id="@+id/emailAddress"/>
+    </LinearLayout> <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Hobi"
+            android:textColor="@color/white"
+            android:id="@+id/qhobby"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="12pt"
+            android:textColor="@color/white"
+            android:text="Ngontent"
+            android:id="@+id/hobby"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginVertical="100px"
+        android:layout_marginHorizontal="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logOut"/>
+
+
+</LinearLayout>

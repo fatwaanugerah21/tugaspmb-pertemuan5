@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Tugas4_PMB_H071191019_Fatwa Anugerah Nasir"
